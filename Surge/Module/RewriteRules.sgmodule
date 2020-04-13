@@ -41,11 +41,8 @@
 ^https?:\/\/splashqqlive\.gtimg\.com\/website\/\d{6} - reject
 ^https?:\/\/szextshort\.weixin\.qq\.com\/cgi-bin\/mmoc-bin\/ad\/ - reject
 ^https?:\/\/y\.gtimg\.cn\/music\/common\/upload\/targeted_ads - reject
-^https?:\/\/api\.weibo\.cn\/2\/statuses\/extend\?gsid= - reject
 ^https?:\/\/edit\.sinaapp\.com\/ua\?t=adv - reject
 ^https?:\/\/free\.sinaimg\.cn\/u1\.img\.mobile\.sina\.cn - reject
-^https?:\/\/simg\.s\.weibo\.com\/.+_ios\d{2}\.gif - reject
-^https?:\/\/storage\.wax\.weibo\.com\/\w+\.(png|jpg|mp4) - reject
 ^https?:\/\/u1\.img\.mobile\.sina\.cn\/public\/files\/image\/\d{3}x\d{2,4}.+(png|jpg|mp4) - reject
 ^https?:\/\/(iyes|(api|hd)\.mobile)\.youku\.com\/(adv|common\/v3\/hudong\/new) - reject
 ^https?:\/\/.+\.mp4\?ccode=0902 - reject
@@ -329,9 +326,6 @@
 ^https?:\/\/b-api\.ins\.miaopai\.com\/1\/ad/ - reject
 ^https?:\/\/api5\.futunn\.com\/ad\/ - reject
 ^https?:\/\/images\.client\.vip\.xunlei\.com\/.+\/advert\/ - reject
-^https?:\/\/tqt\.weibo\.cn\/.+advert\.index - reject
-^https?:\/\/tqt\.weibo\.cn\/overall\/redirect\.php\?r=tqt_sdkad - reject
-^https?:\/\/tqt\.weibo\.cn\/overall\/redirect\.php\?r=tqtad - reject
 ^https?:\/\/.+\.iydsj\.com\/api\/.+\/ad - reject
 ^https?:\/\/cdn\.tiku\.zhan\.com\/banner - reject
 ^https?:\/\/capi\.mwee\.cn/app-api/V12/app/getstartad - reject
@@ -473,10 +467,6 @@
 ^https?:\/\/notch\.qdaily\.com\/api\/v2\/boot_ad - reject
 ^https?:\/\/msspjh\.emarbox\.com\/getAdConfig - reject
 ^https?:\/\/api\.videozhishi\.com\/api\/getAdvertising - reject
-^https?:\/\/sdkapp\.uve\.weibo\.com\/interface\/sdk\/sdkad\.php - reject
-^https?:\/\/wbapp\.uve\.weibo\.com\/wbapplua\/wbpullad\.lua - reject
-^https?:\/\/sdkapp\.uve\.weibo\.com/\interface\/sdk\/actionad\.php - reject
-^https?:\/\/tqt\.weibo\.cn\/api\/advert\/ - reject
 ^https?:\/\/s1\.api\.tv\.itc\.cn\/v4\/mobile\/control\/switch\.json - reject
 ^https?:\/\/www\.shihuo\.cn\/app3\/saveAppInfo - reject
 ^https?:\/\/gw-passenger\.01zhuanche\.com\/gw-passenger\/car-rest\/webservice\/passenger\/recommendADs - reject
@@ -566,7 +556,6 @@
 ^https?:\/\/slapi.oray.net/client/ad - reject
 ^https?:\/\/cmsapi\.wifi8\.com\/v\d\/(emptyAd|adNew)\/ - reject
 ^https?:\/\/api\.rr\.tv\/ad\/ - reject
-^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php\?a=get_coopen_ads - reject
 ^https?:\/\/api\.tv\.sohu\.com\/agg\/api\/app\/config\/bootstrap - reject
 ^https?:\/\/api\.smzdm\.com\/v\d\/util\/loading - reject
 ^https?:\/\/service\.4gtv\.tv\/4gtv\/Data\/(GetAD|ADLog) - reject
@@ -737,7 +726,6 @@
 ^https?:\/\/ap(i|p)\.bilibili\.com\/((x\/v2|pgc)\/(search\/defaultword|season\/rank\/cn|splash\/)|(pgc/season/rank/cn|x/v2/(rank.*rid=(168|5)|search/(defaultword|hot|recommend|resource)))) - reject
 https?://interface3?.music.163.com/eapi/(ad|abtest|sp|hot|store|mlog|search/(specialkeyword|defaultkeyword|hot)) - reject
 ^https?:\/\/capis-slb\.didapinche\.com\/ad\/ - reject
-^https://weibointl.api.weibo.cn/portal.php\?a=get_coopen_ads - reject
 ^https?:\/\/yxyapi2\.drcuiyutao\.com\/yxy-api-gateway\/api\/json\/advert\/getsAd - reject
 ^https?:\/\/capis-clb\.didapinche\.com\/ad\/ - reject
 ^https?:\/\/api\.vistopia\.com\.cn\/api\/(v1|v\/d)\/home\/advertisement - reject
